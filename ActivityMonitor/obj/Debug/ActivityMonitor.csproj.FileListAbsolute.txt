@@ -1,0 +1,7 @@
+C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.exe.config
+C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.exe
+C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.pdb
+C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\obj\Debug\ActivityMonitor.csproj.AssemblyReference.cache
+C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\obj\Debug\ActivityMonitor.csproj.CoreCompileInputs.cache
+C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\obj\Debug\ActivityMonitor.exe
+C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\obj\Debug\ActivityMonitor.pdb

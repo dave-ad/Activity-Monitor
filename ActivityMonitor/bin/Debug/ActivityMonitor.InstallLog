@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.exe
+   logfile = C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.exe assembly.
+Committing assembly 'C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.exe
+   logfile = C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Debug\ActivityMonitor.exe assembly.
+Remove InstallState file because there are no installers.

@@ -1,0 +1,17 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Release\ActivityMonitor.exe assembly's progress.
+The file is located at C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Release\ActivityMonitor.InstallLog.
+
+An exception occurred during the Install phase.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security, State.
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Release\ActivityMonitor.exe assembly's progress.
+The file is located at C:\Users\DavidAderibigbe\source\repos\ActivityMonitor\ActivityMonitor\bin\Release\ActivityMonitor.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.

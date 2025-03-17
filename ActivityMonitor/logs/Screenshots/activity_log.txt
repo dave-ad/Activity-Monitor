@@ -1,0 +1,221 @@
+2/6/2025 5:18:01 PM: System - 17:18:01
+
+                    ID: 2139236062
+                    Application: System
+                    Description: System started.
+                    Start Time: 2/6/2025 5:18:01 PM
+                    End Time: 1/1/0001 12:00:00 AM
+                    Duration: 17:18:01
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot URL: 
+                    ----------------------------------------
+2/6/2025 5:18:28 PM: System - 00:00:26
+
+                    ID: -141442332
+                    Application: System
+                    Description: System shut down.
+                    Start Time: 2/6/2025 5:18:01 PM
+                    End Time: 2/6/2025 5:18:28 PM
+                    Duration: 00:00:26
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot URL: 
+                    ----------------------------------------
+2/6/2025 5:18:28 PM: System - 00:00:26
+
+                    ID: -1949161339
+                    Application: System
+                    Description: System was active for 00:00:26.9936362.
+                    Start Time: 2/6/2025 5:18:01 PM
+                    End Time: 2/6/2025 5:18:28 PM
+                    Duration: 00:00:26
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot URL: 
+                    ----------------------------------------
+2/6/2025 5:55:48 PM: System - 17:55:48
+
+                    ID: -1801125720
+                    Application: System
+                    Description: System started.
+                    Start Time: 2/6/2025 5:55:48 PM
+                    End Time: 1/1/0001 12:00:00 AM
+                    Duration: 17:55:48
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot URL: 
+                    ----------------------------------------
+2/6/2025 6:27:54 PM: System - 00:32:05
+
+                    ID: -561886359
+                    Application: System
+                    Description: System shut down.
+                    Start Time: 2/6/2025 5:55:48 PM
+                    End Time: 2/6/2025 6:27:54 PM
+                    Duration: 00:32:05
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot URL: 
+                    ----------------------------------------
+2/6/2025 6:27:54 PM: System - 00:32:05
+
+                    ID: -149305855
+                    Application: System
+                    Description: System was active for 00:32:05.8022887.
+                    Start Time: 2/6/2025 5:55:48 PM
+                    End Time: 2/6/2025 6:27:54 PM
+                    Duration: 00:32:05
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot URL: 
+                    ----------------------------------------
+2/6/2025 7:02:25 PM: System - 19:02:25
+
+                    ID: -398168160
+                    Application: System
+                    Description: System started.
+                    Start Time: 2/6/2025 7:02:25 PM
+                    End Time: 1/1/0001 12:00:00 AM
+                    Duration: 19:02:25
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/7/2025 8:56:51 AM: Idle - 00:10:00
+
+                    ID: 14149162
+                    Application: Idle
+                    Description: User is idle.
+                    Start Time: 2/7/2025 8:46:51 AM
+                    End Time: 2/7/2025 8:56:51 AM
+                    Duration: 00:10:00
+                    Website URL: 
+                    Is Idle: True
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/7/2025 8:56:51 AM: Active - 13:54:26
+
+                    ID: 583556665
+                    Application: Active
+                    Description: Active for 13:54:26.0157030.
+                    Start Time: 2/6/2025 7:02:25 PM
+                    End Time: 2/7/2025 8:56:51 AM
+                    Duration: 13:54:26
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/9/2025 6:58:44 PM: System - 18:58:44
+
+                    ID: -1013007350
+                    Application: System
+                    Description: System started.
+                    Start Time: 2/9/2025 6:58:44 PM
+                    End Time: 1/1/0001 12:00:00 AM
+                    Duration: 18:58:44
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/10/2025 11:06:21 PM: Idle - 00:10:00
+
+                    ID: 1400362917
+                    Application: Idle
+                    Description: User is idle.
+                    Start Time: 2/10/2025 10:56:21 PM
+                    End Time: 2/10/2025 11:06:21 PM
+                    Duration: 00:10:00
+                    Website URL: 
+                    Is Idle: True
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/10/2025 11:06:21 PM: Active - 04:07:37
+
+                    ID: -690877333
+                    Application: Active
+                    Description: Active for 1.04:07:37.2604437.
+                    Start Time: 2/9/2025 6:58:44 PM
+                    End Time: 2/10/2025 11:06:21 PM
+                    Duration: 04:07:37
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/11/2025 1:48:02 AM: Idle - 00:10:00
+
+                    ID: 588004331
+                    Application: Idle
+                    Description: User is idle.
+                    Start Time: 2/11/2025 1:38:02 AM
+                    End Time: 2/11/2025 1:48:02 AM
+                    Duration: 00:10:00
+                    Website URL: 
+                    Is Idle: True
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/12/2025 1:01:25 AM: Idle - 00:10:00
+
+                    ID: -996658501
+                    Application: Idle
+                    Description: User is idle.
+                    Start Time: 2/12/2025 12:51:25 AM
+                    End Time: 2/12/2025 1:01:25 AM
+                    Duration: 00:10:00
+                    Website URL: 
+                    Is Idle: True
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/12/2025 1:14:36 AM: System - 06:15:52
+
+                    ID: -1276786866
+                    Application: System
+                    Description: System shut down.
+                    Start Time: 2/9/2025 6:58:44 PM
+                    End Time: 2/12/2025 1:14:36 AM
+                    Duration: 06:15:52
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/12/2025 1:14:36 AM: System - 06:15:52
+
+                    ID: -1966211261
+                    Application: System
+                    Description: System was active for 2.06:15:52.1574919.
+                    Start Time: 2/9/2025 6:58:44 PM
+                    End Time: 2/12/2025 1:14:36 AM
+                    Duration: 06:15:52
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
+2/12/2025 1:14:58 AM: System - 00:00:00
+
+                    ID: -2018042875
+                    Application: System
+                    Description: System started.
+                    Start Time: 2/12/2025 1:14:58 AM
+                    End Time: 1/1/0001 12:00:00 AM
+                    Duration: 00:00:00
+                    Website URL: 
+                    Is Idle: False
+                    User: SYSTEM
+                    Screenshot ByteArray: No screenshot captured
+                    ----------------------------------------
