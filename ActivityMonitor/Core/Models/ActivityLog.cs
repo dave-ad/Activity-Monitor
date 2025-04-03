@@ -1,11 +1,16 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ActivityMonitor.Core.Models
 {
     public class ActivityLog
     {
         public int Id { get; set; }
+        [Required]
+        [StringLength(100)]
         public string ApplicationName { get; set; }
+        [Required]
+        [StringLength(500)] 
         public string Description { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
@@ -15,6 +20,6 @@ namespace ActivityMonitor.Core.Models
         public string User { get; set; }
         public string IpAddress { get; set; }
         public byte[] ScreenshotByteArray { get; set; }
-        public string ScreenshotUrl { get; set; } 
+        public string ScreenshotUrl { get; set; }
     }
 }

@@ -2835,3 +2835,336 @@ Screenshot ByteArray: No screenshot captured
 [3/17/2025 11:59:17 AM] ActiveApp: Unknown, IsIdle: True
 [3/17/2025 12:04:16 PM] ActiveApp: Unknown, IsIdle: True
 [3/17/2025 12:09:15 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 12:14:15 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 12:19:14 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 12:24:13 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 2:11:15 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 2:16:14 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 2:21:14 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 2:26:13 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 2:50:55 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 2:55:54 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 3:00:53 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 4:28:02 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 4:33:01 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 4:38:01 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 4:43:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 4:48:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 4:53:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 4:57:59 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 5:02:58 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 5:07:57 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 5:12:57 PM] ActiveApp: Unknown, IsIdle: True
+[3/17/2025 5:17:56 PM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 1:29:43 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 1:34:42 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 1:39:41 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 1:44:41 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 1:49:40 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 1:54:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 1:59:38 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:04:37 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:09:37 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:14:36 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:19:35 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:24:34 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:29:33 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:34:33 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:39:32 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:44:31 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:49:30 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:54:30 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 2:59:29 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 3:04:28 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 3:09:27 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 3:14:26 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 3:19:26 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 4:14:06 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 4:19:06 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 4:24:05 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 4:29:04 AM] ActiveApp: Unknown, IsIdle: True
+[3/21/2025 4:34:03 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 10:44:44 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 10:49:43 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 10:54:43 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 10:59:42 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:04:41 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:09:40 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:14:40 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:19:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:24:38 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:29:37 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:37:20 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:42:19 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:47:18 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:52:18 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 11:57:17 AM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 12:02:16 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 12:07:15 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 2:17:42 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 2:22:41 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 2:27:41 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 2:32:40 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 2:37:39 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 2:42:38 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 2:47:38 PM] ActiveApp: Unknown, IsIdle: True
+[3/22/2025 2:52:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 12:40:50 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 12:45:50 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 12:50:49 PM] ActiveApp: Unknown, IsIdle: True
+Title: System shut down.
+
+ID: 314875293
+Application: System
+Description: System shut down.
+Start Time: 3/17/2025 10:36:51 AM
+End Time: 3/24/2025 12:50:51 PM
+Duration: 02:14:00
+Is Idle: False
+User: AzureAD\DavidAderibigbe
+IP Address: 
+Screenshot ByteArray: No screenshot captured
+----------------------------------------
+Title: System was active for 7.02:13:59.9647743.
+
+ID: -2120293481
+Application: System
+Description: System was active for 7.02:13:59.9647743.
+Start Time: 3/17/2025 10:36:51 AM
+End Time: 3/24/2025 12:50:51 PM
+Duration: 02:13:59
+Is Idle: False
+User: AzureAD\DavidAderibigbe
+IP Address: 192.168.43.36
+Screenshot ByteArray: No screenshot captured
+----------------------------------------
+Title: System started.
+
+ID: 1386107865
+Application: System
+Description: System started.
+Start Time: 3/24/2025 12:56:05 PM
+Is Idle: False
+User: AzureAD\DavidAderibigbe
+IP Address: 192.168.43.36
+Screenshot: No screenshot captured
+----------------------------------------
+[3/24/2025 1:01:00 PM] ActiveApp: Unknown, IsIdle: True
+Title: User was idle for 00:04:55.1275576.
+
+ID: -654871089
+Application: Idle
+Description: User was idle for 00:04:55.1275576.
+Start Time: 3/24/2025 12:56:05 PM
+End Time: 3/24/2025 01:01:00 PM
+Duration: 00:04:55
+Is Idle: True
+User: AzureAD\DavidAderibigbe
+IP Address: 192.168.43.36
+Screenshot: No screenshot captured
+----------------------------------------
+[3/24/2025 1:04:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:07:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:10:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:13:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:16:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:19:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:22:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:25:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:28:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:31:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:34:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:37:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:40:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:43:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:46:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:49:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:52:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 1:55:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 4:59:27 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 5:41:16 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 5:44:16 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 5:47:16 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 5:50:16 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 5:53:16 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 5:56:16 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:02:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:05:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:08:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:11:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:14:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:17:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:20:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:23:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:26:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:29:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:32:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:35:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:38:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:41:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:44:08 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 6:57:58 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 7:00:58 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 7:03:58 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 7:06:57 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 7:09:57 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 7:12:57 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 7:15:57 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 10:20:24 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 10:23:24 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 10:26:24 PM] ActiveApp: Unknown, IsIdle: True
+[3/24/2025 10:29:24 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:10:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:13:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:16:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:19:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:22:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:25:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:28:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:31:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:34:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:37:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:40:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:43:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:46:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:49:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:52:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:55:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 8:58:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:01:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:04:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:07:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:10:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:13:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:16:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:19:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:22:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:25:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:28:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:31:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:34:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:37:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:40:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:43:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 9:46:39 AM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 12:51:06 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 12:54:06 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 12:57:06 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 4:01:33 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 4:04:33 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 4:07:33 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 4:10:33 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 7:15:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 7:18:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 7:21:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 7:24:00 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 10:28:28 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 10:31:28 PM] ActiveApp: Unknown, IsIdle: True
+[3/28/2025 10:34:28 PM] ActiveApp: Unknown, IsIdle: True
+[3/29/2025 1:38:55 AM] ActiveApp: Unknown, IsIdle: True
+[3/29/2025 1:41:55 AM] ActiveApp: Unknown, IsIdle: True
+[3/29/2025 1:44:55 AM] ActiveApp: Unknown, IsIdle: True
+[3/29/2025 1:47:55 AM] ActiveApp: Unknown, IsIdle: True
+[3/29/2025 1:50:55 AM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:04:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:07:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:10:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:13:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:16:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:19:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:22:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:25:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:28:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:31:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:34:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:37:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:40:37 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:43:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:46:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:49:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:52:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:55:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 8:58:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 9:01:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 9:04:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 9:07:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 9:10:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 9:13:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 9:16:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 9:19:44 PM] ActiveApp: Unknown, IsIdle: True
+[3/31/2025 9:22:44 PM] ActiveApp: Unknown, IsIdle: True
+Title: System started.
+
+ID: 954083257
+Application: System
+Description: System started.
+Start Time: 4/2/2025 02:39:52 AM
+Is Idle: False
+User: Unknown User
+IP Address: 127.0.0.1
+Screenshot: No screenshot captured
+----------------------------------------
+[4/2/2025 2:42:48 AM] ActiveApp: Unknown, IsIdle: False
+[4/2/2025 2:45:42 AM] ActiveApp: Unknown, IsIdle: False
+[4/2/2025 2:48:37 AM] ActiveApp: Unknown, IsIdle: False
+[4/2/2025 2:51:31 AM] ActiveApp: Unknown, IsIdle: True
+Title: User was idle for 00:11:39.1462867.
+
+ID: 1896310666
+Application: Idle
+Description: User was idle for 00:11:39.1462867.
+Start Time: 4/2/2025 02:39:52 AM
+End Time: 4/2/2025 02:51:31 AM
+Duration: 00:11:39
+Is Idle: True
+User: AzureAD\DavidAderibigbe
+IP Address: 192.168.43.12
+Screenshot: No screenshot captured
+----------------------------------------
+[4/2/2025 2:55:12 AM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:11:27 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:15:08 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:18:50 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:22:34 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:26:16 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:29:57 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:33:38 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:37:20 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:41:01 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:44:42 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:48:24 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:52:05 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:55:47 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 1:59:28 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:03:09 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:06:51 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:10:32 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:14:13 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:17:55 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:21:36 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:25:17 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:28:59 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:32:40 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:36:21 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:40:03 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:43:44 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:47:25 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:51:07 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:54:48 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 2:58:29 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:02:11 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:05:52 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:09:34 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:13:15 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:16:56 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:20:38 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:24:19 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:28:00 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:31:42 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:35:23 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:39:04 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:42:46 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:46:27 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:50:08 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:53:50 PM] ActiveApp: Unknown, IsIdle: True
+[4/2/2025 3:57:31 PM] ActiveApp: Unknown, IsIdle: True

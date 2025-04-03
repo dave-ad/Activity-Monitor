@@ -5,12 +5,21 @@ namespace ActivityMonitor.Core.Utilities
 {
     public static class IdleTimeTracker
     {
+        // Lock object for thread safety
+        private static readonly object _lock = new object();
+
         [DllImport("user32.dll")]
         private static extern bool GetLastInputInfo(ref LASTINPUTINFO plii);
-        internal struct LASTINPUTINFO
+        internal readonly struct LASTINPUTINFO
         {
-            public uint cbSize;
-            public uint dwTime;
+            public readonly uint cbSize;
+            public readonly uint dwTime;
+
+            public LASTINPUTINFO(uint cbSize, uint dwTime)
+            {
+                this.cbSize = cbSize;
+                this.dwTime = dwTime;
+            }
         }
 
         /// <summary>
@@ -19,16 +28,18 @@ namespace ActivityMonitor.Core.Utilities
         /// <returns>TimeSpan representing the idle time.</returns>
         public static TimeSpan GetIdleTime()
         {
-            LASTINPUTINFO lastInput = new LASTINPUTINFO();
-            lastInput.cbSize = (uint)Marshal.SizeOf(typeof(LASTINPUTINFO));
-
-            if (GetLastInputInfo(ref lastInput))
+            lock (_lock) 
             {
-                uint idleTime = (uint)Environment.TickCount - lastInput.dwTime;
-                return TimeSpan.FromMilliseconds(idleTime);
-            }
+                LASTINPUTINFO lastInput = new LASTINPUTINFO((uint)Marshal.SizeOf(typeof(LASTINPUTINFO)), 0);
 
-            return TimeSpan.Zero;
+                if (GetLastInputInfo(ref lastInput))
+                {
+                    uint idleTime = (uint)Environment.TickCount - lastInput.dwTime;
+                    return TimeSpan.FromMilliseconds(idleTime);
+                }
+
+                return TimeSpan.Zero;
+            }
         }
 
         /// <summary>
@@ -44,7 +55,7 @@ namespace ActivityMonitor.Core.Utilities
             }
             catch (Exception ex)
             {
-
+                Console.Error.WriteLine($"An error occurred while checking idle time: {ex.Message}");
                 return false;
             }
         }
