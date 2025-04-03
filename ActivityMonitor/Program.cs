@@ -1,6 +1,9 @@
 ﻿using ActivityMonitor.Data.Interfaces;
 using ActivityMonitor.Data.Repositories;
+using ActivityMonitor.Helpers;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,29 +20,34 @@ namespace ActivityMonitor
         /// </summary>
         static void Main()
         {
+            var host = CreateHostBuilder().Build();
+            var logRepository = host.Services.GetRequiredService<ILogRepository>();
+            var configuration = host.Services.GetRequiredService<IConfiguration>();
 
-            string logFilePath = "C:\\Users\\DavidAderibigbe\\source\\repos\\ActivityMonitor\\ActivityMonitor\\logs\\activity_log.txt";
-            ILogRepository logRepository = new FileLogRepository();
-
-            //// Read log file path from environment variable
-            //string logFilePath = Environment.GetEnvironmentVariable("LOG_FILE_PATH");
-
-            //if (string.IsNullOrEmpty(logFilePath))
-            //{
-            //    // Fallback default value if the environment variable is not set
-            //    logFilePath = "C:\\Logs\\activity_log.txt";
-            //}
-            //ILogRepository logRepository = new FileLogRepository(logFilePath); // Pass log file path to repository
-
+            string logFilePath = configuration["Logging:LogFilePath"];
             ActivityMonitorService service = new ActivityMonitorService(logRepository, logFilePath);
+
+            ProcessHelper.CaptureScreenshot(configuration);
 
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                //new ActivityMonitorService()
                 service
             };
             ServiceBase.Run(ServicesToRun);
         }
+
+        private static IHostBuilder CreateHostBuilder() =>
+            Host.CreateDefaultBuilder()
+                .ConfigureAppConfiguration((context, config) =>
+                {
+                    config.SetBasePath(AppDomain.CurrentDomain.BaseDirectory);
+                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+                    config.AddEnvironmentVariables();
+                })
+                .ConfigureServices((context, services) =>
+                {
+                    services.AddSingleton<ILogRepository, FileLogRepository>();
+                });
     }
 }

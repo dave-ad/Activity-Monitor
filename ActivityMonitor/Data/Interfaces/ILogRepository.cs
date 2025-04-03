@@ -1,11 +1,16 @@
 ﻿using ActivityMonitor.Core.Models;
+using System.Threading.Tasks;
 
 namespace ActivityMonitor.Data.Interfaces
 {
     public interface ILogRepository
     {
-        void LogActivity(ActivityLog log);
-        //void StartProcessingQueue();
+        Task LogActivityAsync(ActivityLog log);
+
         //void LogScreenshot(string filePath);
+
+
+
+        //void StartProcessingQueue();
     }
 }

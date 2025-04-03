@@ -5,8 +5,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Windows.Forms;
 using System.IO;
-using System.Net.NetworkInformation;
-using System.Runtime.InteropServices.ComTypes;
+using Microsoft.Extensions.Configuration;
 
 namespace ActivityMonitor.Helpers
 {
@@ -17,6 +16,17 @@ namespace ActivityMonitor.Helpers
 
         [DllImport("user32.dll", SetLastError = true)]
         private static extern uint GetWindowThreadProcessId(IntPtr hWnd, out uint processId);
+
+        // Retrieve log file path from environment variable or fallback to a default path
+        private static string GetLogFilePath(IConfiguration configuration, string logFileName)
+        {
+            string logDirectory = configuration["Logging:LogDirectory"] ?? "C:\\ActivityMonitorLogs";
+            if (!Directory.Exists(logDirectory))
+            {
+                Directory.CreateDirectory(logDirectory);
+            }
+            return Path.Combine(logDirectory, logFileName);
+        }
 
         /// <summary>
         /// Gets the name of the currently active application.
@@ -29,21 +39,22 @@ namespace ActivityMonitor.Helpers
                 IntPtr foregroundWindow = GetForegroundWindow();
                 if (foregroundWindow == IntPtr.Zero)
                 {
-                    File.AppendAllText("C:\\Users\\DavidAderibigbe\\Temp\\debug_log.txt", $"[{DateTime.Now}] GetForegroundWindow returned zero.{Environment.NewLine}");
+                    //File.AppendAllText("C:\\Users\\DavidAderibigbe\\Temp\\debug_log.txt", $"[{DateTime.Now}] GetForegroundWindow returned zero.{Environment.NewLine}");
+                    LogError("GetForegroundWindow returned zero.", null);
                     return "Unknown";
                 }
 
                 GetWindowThreadProcessId(foregroundWindow, out uint processId);
                 if (processId == 0)
                 {
-                    File.AppendAllText("C:\\Temp\\debug_log.txt", $"[{DateTime.Now}] Process ID is zero.{Environment.NewLine}");
+                    //File.AppendAllText("C:\\Temp\\debug_log.txt", $"[{DateTime.Now}] Process ID is zero.{Environment.NewLine}");
+                    LogError("Process ID is zero.", null);
                     return "Unknown";
                 }
 
                 using (Process process = Process.GetProcessById((int)processId))
                 {
                     string processName = process.ProcessName;
-                    string processPath = "Unknown";
                     string windowTitle = process.MainWindowTitle;
 
                     return string.IsNullOrEmpty(windowTitle) ? processName : $"{processName} - {windowTitle}";
@@ -51,8 +62,6 @@ namespace ActivityMonitor.Helpers
             }
             catch (Exception ex)
             {
-                string activeApplication = ProcessHelper.GetActiveApplication();
-                File.AppendAllText("C:\\Users\\DavidAderibigbe\\Temp\\debug_log.txt", $"[{DateTime.Now}] Active App: {activeApplication}{Environment.NewLine}");
                 LogError("Error retrieving active application", ex);
                 return "Unknown";
 
@@ -63,25 +72,38 @@ namespace ActivityMonitor.Helpers
         /// Captures a screenshot of the current screen and saves it to the specified file path.
         /// </summary>
         /// <param name="filePath">The path where the screenshot will be saved.</param>
-        public static byte[] CaptureScreenshotAsByteArray()
+        public static string CaptureScreenshot(IConfiguration configuration)
         {
             try
             {
-                Rectangle bounds = Screen.PrimaryScreen.Bounds;
+                string screenshotDirectory = configuration["Logging:ScreenshotDirectory"];
+
+                if (!Directory.Exists(screenshotDirectory))
+                {
+                    Directory.CreateDirectory(screenshotDirectory);
+                }
+                
+                string fileName = $"screenshot_{DateTime.Now:yyyyMMdd_HHmmss}.png";
+                string filePath = Path.Combine(screenshotDirectory, fileName);
+
+
+                Rectangle bounds = GetCombinedScreenBounds();
                 using (Bitmap bitmap = new Bitmap(bounds.Width, bounds.Height))
                 {
                     using (Graphics g = Graphics.FromImage(bitmap))
                     {
-                        g.CopyFromScreen(Point.Empty, Point.Empty, bounds.Size);
+                        foreach (var screen in Screen.AllScreens)
+                        {
+                            g.CopyFromScreen(screen.Bounds.Location, screen.Bounds.Location, screen.Bounds.Size);
+                        }
                     }
 
-                    // Save as PNG to memory stream and convert to byte array
-                    using (MemoryStream ms = new MemoryStream())
-                    {
-                        bitmap.Save(ms, ImageFormat.Png);
-                        return ms.ToArray();
-                    }
+                    bitmap.Save(filePath, ImageFormat.Png);
+
+                    LogInfo($"Screenshot saved at: {filePath}");
                 }
+
+                return filePath;
             }
             catch (Exception ex)
             {
@@ -90,24 +112,49 @@ namespace ActivityMonitor.Helpers
             }
         }
 
-        public static void SaveByteArrayToImage(byte[] imageBytes, string filePath)
+        private static Rectangle GetCombinedScreenBounds()
         {
-            if (imageBytes == null) throw new ArgumentNullException(nameof(imageBytes));
+            int minX = int.MaxValue;
+            int minY = int.MaxValue;
+            int maxX = int.MinValue;
+            int maxY = int.MinValue;
 
-            using (MemoryStream ms = new MemoryStream(imageBytes))
+            foreach (var screen in Screen.AllScreens)
             {
-                using (Bitmap bitmap = new Bitmap(ms))
-                {
-                    bitmap.Save(filePath, ImageFormat.Png);
-                }
+                minX = Math.Min(minX, screen.Bounds.Left);
+                minY = Math.Min(minY, screen.Bounds.Top);
+                maxX = Math.Max(maxX, screen.Bounds.Right);
+                maxY = Math.Max(maxY, screen.Bounds.Bottom);
             }
+            return new Rectangle(minX, minY, maxX - minX, maxY - minY);
+        }
+
+        //public static void SaveByteArrayToImage(byte[] imageBytes, string filePath)
+        //{
+        //    if (imageBytes == null) throw new ArgumentNullException(nameof(imageBytes));
+
+        //    using (MemoryStream ms = new MemoryStream(imageBytes))
+        //    {
+        //        using (Bitmap bitmap = new Bitmap(ms))
+        //        {
+        //            bitmap.Save(filePath, ImageFormat.Png);
+        //        }
+        //    }
+        //}
+
+        private static void LogInfo(string message)
+        {
+            string logFilePath = GetLogFilePath(new ConfigurationBuilder().AddJsonFile("appsettings.json").Build(), "log_info.txt");
+            string logMessage = $"[{DateTime.Now}] INFO: {message}{Environment.NewLine}";
+            File.AppendAllText(logFilePath, logMessage);
         }
 
         internal static void LogError(string context, Exception ex)
         {
-            string logFilePath = "C:\\Users\\DavidAderibigbe\\source\\repos\\ActivityMonitor\\ActivityMonitor\\logs\\log_error.txt";
-
-            string errorMessage = $"[{DateTime.Now}] {context}: {ex.Message}{Environment.NewLine}Stack Trace: {ex.StackTrace}{Environment.NewLine}";
+            string logFilePath = GetLogFilePath(new ConfigurationBuilder().AddJsonFile("appsettings.json").Build(), "log_error.txt");
+            string errorMessage = $"[{DateTime.Now}] ERROR: {context}: " +
+                $"{ex?.Message ?? "No exception message"}{Environment.NewLine}Stack Trace: " +
+                $"{ex?.StackTrace ?? "No stack trace"}{Environment.NewLine}";
 
             File.AppendAllText(logFilePath, errorMessage);
         }
